@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>YDC Weekly Email</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background: #F7F7F5;
+        font-family: 'Lato', sans-serif;
+        color: #333;
+        line-height: 1.6;
+    }
+
+    /* SECTION BANNERS */
+    .section-banner {
+        background: #1A2A4F;
+        color: white;
+        padding: 28px 20px 18px;
+        text-align: center;
+        font-family: 'Playfair Display', serif;
+        font-size: 32px;
+        letter-spacing: 1px;
+        position: relative;
+    }
+    .section-banner:after {
+        content: "";
+        display: block;
+        width: 120px;
+        height: 4px;
+        background: #D9A441;
+        margin: 18px auto 0;
+        border-radius: 2px;
+    }
+
+    /* FEATURE CARDS */
+    .card {
+        background: white;
+        margin: 28px auto;
+        padding: 24px 28px;
+        width: 88%;
+        max-width: 900px;
+        border-radius: 10px;
+        box-shadow: 0 3px 12px rgba(0,0,0,0.12);
+    }
+
+    .card h2 {
+        font-family: 'Playfair Display', serif;
+        font-size: 26px;
+        margin-bottom: 6px;
+        color: #1A2A4F;
+    }
+
+    .gold-line {
+        width: 80px;
+        height: 3px;
+        background: #D9A441;
+        margin: 10px 0 18px;
+        border-radius: 2px;
+    }
+
+    /* ZMANIM IMAGE */
+    .zmanim-img {
+        width: 100%;
+        max-width: 700px;
+        display: block;
+        margin: 0 auto;
+        border: 4px solid #D9A441;
+        border-radius: 8px;
+    }
+
+    /* ANNOUNCEMENTS COLUMN */
+    .announcements {
+        column-count: 2;
+        column-gap: 40px;
+        font-size: 18px;
+    }
+
+    .announcements h3 {
+        font-family: 'Playfair Display', serif;
+        color: #1A2A4F;
+        margin-bottom: 6px;
+    }
+
+    /* ADS GRID */
+    .ads-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .ad-box {
+        background: white;
+        padding: 20px;
+        border: 2px solid #D9A441;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    /* FOOTER */
+    footer {
+        background: #1A2A4F;
+        color: white;
+        text-align: center;
+        padding: 30px 10px;
+        margin-top: 40px;
+        font-size: 16px;
+    }
+    footer:after {
+        content: "";
+        display: block;
+        width: 100px;
+        height: 4px;
+        background: #D9A441;
+        margin: 18px auto 0;
+        border-radius: 2px;
+    }
+
+</style>
+</head>
+
+<body>
+
+<!-- SIMCHAS -->
+<div class="section-banner">Simchas This Week</div>
+
+<div class="card">
+    <h2>Cohen Family — Bar Mitzvah</h2>
+    <div class="gold-line"></div>
+    Mazal tov to the Cohen family on the Bar Mitzvah of their son…
+</div>
+
+<div class="card">
+    <h2>Friedman Family — Shalom Zachor</h2>
+    <div class="gold-line"></div>
+    Mazal tov to the Friedman family…
+</div>
+
+<!-- ZMANIM -->
+<div class="section-banner">Zmanim</div>
+
+<div class="card">
+    <img src="INSERT-ZMANIM-IMAGE-URL-HERE" class="zmanim-img" alt="Zmanim Chart">
+</div>
+
+<!-- ANNOUNCEMENTS -->
+<div class="section-banner">Yeshiva Announcements</div>
+
+<div class="card">
+    <div class="announcements">
+        <h3>Tana D’Vei Eliyahu Shiur</h3>
+        New time this week…
+
+        <h3>Pele Yoetz Chaburah</h3>
+        Special guest speaker…
+
+        <h3>Night Seder Update</h3>
+        Revised schedule…
+
+        <h3>Alumni Spotlight</h3>
+        Featuring…
+    </div>
+</div>
+
+<!-- ADS -->
+<div class="section-banner">Community Ads</div>
+
+<div class="card">
+    <div class="ads-grid">
+        <div class="ad-box">Ad 1</div>
+        <div class="ad-box">Ad 2</div>
+        <div class="ad-box">Ad 3</div>
+        <div class="ad-box">Ad 4</div>
+    </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+    Yeshiva Derech Chaim — Weekly Email  
+</footer>
+
+</body>
+</html>
