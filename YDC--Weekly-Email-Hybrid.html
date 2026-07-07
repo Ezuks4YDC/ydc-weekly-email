@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>YDC Weekly Email – Hybrid</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background: #F7F4EC; /* cream */
+        font-family: 'Lato', sans-serif;
+        color: #333333;
+        line-height: 1.6;
+    }
+
+    .wrapper {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 24px 12px 40px;
+    }
+
+    /* SECTION HEADERS */
+    .section-header {
+        background: #1A2A4F; /* navy */
+        color: #FFFFFF;
+        padding: 18px 22px;
+        border-radius: 12px;
+        font-family: 'Playfair Display', serif;
+        font-size: 26px;
+        letter-spacing: 0.5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 26px;
+    }
+
+    .section-header .accent {
+        width: 80px;
+        height: 4px;
+        background: #D9A441; /* gold */
+        border-radius: 2px;
+        margin-left: 16px;
+    }
+
+    /* CARDS */
+    .card {
+        background: #FFFFFF;
+        border-radius: 12px;
+        border: 2px solid #E2D4B8; /* warm border */
+        box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+        padding: 20px 22px;
+        margin-top: 16px;
+    }
+
+    .card h2 {
+        font-family: 'Playfair Display', serif;
+        font-size: 22px;
+        margin: 0 0 6px;
+        color: #1A2A4F;
+    }
+
+    .card .subline {
+        font-size: 15px;
+        color: #7A5F42; /* warm brown */
+        margin-bottom: 12px;
+    }
+
+    .gold-line {
+        width: 70px;
+        height: 3px;
+        background: #D9A441;
+        border-radius: 2px;
+        margin: 8px 0 14px;
+    }
+
+    /* ZMANIM */
+    .zmanim-img {
+        width: 100%;
+        max-width: 680px;
+        display: block;
+        margin: 0 auto;
+        border-radius: 10px;
+        border: 3px solid #D9A441;
+        background: #F7F4EC;
+    }
+
+    /* ANNOUNCEMENTS */
+    .announcements {
+        column-count: 2;
+        column-gap: 32px;
+        font-size: 17px;
+    }
+
+    .announcements h3 {
+        font-family: 'Playfair Display', serif;
+        font-size: 18px;
+        margin: 0 0 4px;
+        color: #1A2A4F;
+    }
+
+    .announcements p {
+        margin: 0 0 14px;
+    }
+
+    /* ADS GRID */
+    .ads-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 16px;
+        margin-top: 10px;
+    }
+
+    .ad-box {
+        background: #FFFFFF;
+        border-radius: 10px;
+        border: 2px solid #D9A441;
+        padding: 16px;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    /* FOOTER */
+    footer {
+        margin-top: 40px;
+        background: #1A2A4F;
+        color: #FFFFFF;
+        text-align: center;
+        padding: 24px 10px;
+        font-size: 15px;
+    }
+
+    footer .accent {
+        width: 80px;
+        height: 4px;
+        background: #D9A441;
+        border-radius: 2px;
+        margin: 14px auto 0;
+    }
+
+    @media (max-width: 700px) {
+        .announcements {
+            column-count: 1;
+        }
+        .section-header {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .section-header .accent {
+            margin: 10px 0 0;
+        }
+    }
+</style>
+</head>
+
+<body>
+<div class="wrapper">
+
+    <!-- SIMCHAS -->
+    <div class="section-header">
+        <span>Simchas This Week</span>
+        <span class="accent"></span>
+    </div>
+
+    <div class="card">
+        <h2>Cohen Family — Bar Mitzvah</h2>
+        <div class="subline">Mazal tov to the Cohen family on the Bar Mitzvah of their son…</div>
+        <div class="gold-line"></div>
+        <p>Full text of the simcha announcement goes here. You can expand with details, times, and any relevant notes.</p>
+    </div>
+
+    <div class="card">
+        <h2>Friedman Family — Shalom Zachor</h2>
+        <div class="subline">Mazal tov to the Friedman family…</div>
+        <div class="gold-line"></div>
+        <p>Additional details about the Shalom Zachor can be placed here.</p>
+    </div>
+
+    <!-- ZMANIM -->
+    <div class="section-header">
+        <span>Zmanim</span>
+        <span class="accent"></span>
+    </div>
+
+    <div class="card">
+        <div class="gold-line"></div>
+        <p>Below is this week’s Zmanim chart. In the CC abridged email, the image will be clickable to open this full-size version for printing.</p>
+        <img src="INSERT-ZMANIM-IMAGE-URL-HERE" alt="Zmanim Chart" class="zmanim-img">
+    </div>
+
+    <!-- ANNOUNCEMENTS -->
+    <div class="section-header">
+        <span>Yeshiva Announcements</span>
+        <span class="accent"></span>
+    </div>
+
+    <div class="card">
+        <div class="gold-line"></div>
+        <div class="announcements">
+            <div>
+                <h3>Tana D’Vei Eliyahu Shiur</h3>
+                <p>New time this week…</p>
+            </div>
+            <div>
+                <h3>Pele Yoetz Chaburah</h3>
+                <p>Special guest speaker…</p>
+            </div>
+            <div>
+                <h3>Night Seder Update</h3>
+                <p>Revised schedule…</p>
+            </div>
+            <div>
+                <h3>Alumni Spotlight</h3>
+                <p>Featuring…</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ADS -->
+    <div class="section-header">
+        <span>Community Ads</span>
+        <span class="accent"></span>
+    </div>
+
+    <div class="card">
+        <div class="gold-line"></div>
+        <div class="ads-grid">
+            <div class="ad-box">Ad 1</div>
+            <div class="ad-box">Ad 2</div>
+            <div class="ad-box">Ad 3</div>
+            <div class="ad-box">Ad 4</div>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    Yeshiva Derech Chaim — Weekly Email
+    <div class="accent"></div>
+</footer>
+
+</body>
+</html>
